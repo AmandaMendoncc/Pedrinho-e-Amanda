@@ -41,8 +41,12 @@ Certifique-se de ter os seguintes itens instalados:
 3. Inicie o servidor Apache e o MySQL no painel do XAMPP.  
 4. Importe o banco de dados:  
    - Acesse `http://localhost/phpmyadmin` no navegador.  
-   - Crie um banco de dados chamado `sendstyle`.  
-   - Importe o arquivo `sendstyle.sql` localizado na pasta do projeto.  
+   - Clique em **Importar**.  
+   - Selecione o arquivo SQL localizado no diretório do projeto:  
+     ```
+     ../SQL/sendstyle.sql
+     ```
+   - Execute o script. Ele criará o banco de dados e todas as tabelas automaticamente.  
 5. Acesse o projeto no navegador:  
    - URL: `http://localhost/sendstyle`.
 
@@ -64,3 +68,12 @@ O projeto foi desenvolvido por:
   - [LinkedIn](#) | [GitHub](#)  
 - **Pedro Henrique Romão**  
   - [LinkedIn](#) | [GitHub](#)  
+
+---
+
+## **Estado do Projeto**
+
+Atualmente, o **SendStyle** está em fase de desenvolvimento. Futuras melhorias incluem:  
+- Integração com gateways de pagamento.  
+- Implementação de filtros avançados de produtos.  
+- Otimizações de performance e SEO.  
